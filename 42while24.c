@@ -8,16 +8,17 @@ int main(void)
     //for (k=5)
     while (k<5)
     {
-        sum=sum+k; //use something different in "while" version
+        printf ("%d\n", k);
+        sum = sum + k; //use something different in "while" version
         k++;
      }
 
-    printf ("%2d\n",sum-0);
+    printf ("Sum - %2d\n",sum);
 
     //k=5;
 
     //while (k=0;k<5;k++)
-    for (k=9;k>=0;k--)
+    for (k=10;k>0;k--)
     {
         //k=k-1; //use something different in "for" version
         printf ("%2d\n", k);
